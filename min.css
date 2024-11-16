@@ -1,0 +1,738 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto;
+    min-width: 1887px;
+    height: 2880px;
+    position: relative;
+    display: flex;
+    justify-content: conter;
+}
+
+
+
+.boxfull {
+    width: 1887px;
+    height: 2880px;
+}
+
+.boxone {
+    width: 1887px;
+    height: 800px;
+}
+
+.boxtow {
+    width: 1887px;
+    height: 800px;
+}
+
+.boxthree {
+    width: 1887px;
+    height: 800px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff00;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 50px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffffff00;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+
+.backtop {
+    width: 110px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    position: absolute;
+    right: 713px;
+    top: 220px;
+    right: 50px;
+    bottom: 20px;
+}
+
+
+
+
+/* 一旦放置 */
+
+.a1 {
+    width: 137px;
+    height: 138px;
+    border: 1px solid red;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+/* 悬停放大 */
+.imgHover {
+    transition: all 1s;
+}
+
+.imgHover:hover {
+    transform: scale(1.1);
+}
+
+
+.heatline {
+    width: 1887px;
+    height: 1440px
+}
+
+
+
+.ZA {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 50px;
+    width: 1887px;
+    height: 50px;
+    background-color: aqua;
+    position: sticky;
+    top: 400px;
+}
+
+/* ZA */
+.ZAZ {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 50px;
+    width: 1887px;
+    height: 50px;
+    background-color: aqua;
+    position: sticky;
+    top: 20px;
+}
+
+.ZB {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    width: 1100px;
+    height: 160px;
+    position: absolute;
+    right: 713px;
+    top: 220px;
+}
+
+.ZC {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    width: 500px;
+    height: 42px;
+    position: absolute;
+    right: 740px;
+    top: 400px;
+}
+
+.ZD {
+    width: 700px;
+    height: 920px;
+    background-color: rgb(32, 73, 135);
+    position: absolute;
+    right: 220px;
+    top: 0px;
+}
+
+.ZE {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 520px;
+    top: 120px;
+}
+
+.main-header {
+    position: sticky;
+    top: 0;
+}
+
+.line1 {
+    width: 5px;
+    height: 350px;
+    background-image: linear-gradient(#000 35%, rgba(255, 255, 255, 0)0%);
+    position: absolute;
+    right: 850px;
+    top: 1550px;
+    background-size: 3px 10px;
+    background-repeat: repeat-y;
+    z-index: 1
+}
+
+.line2 {
+    width: 5px;
+    height: 350px;
+    background-image: linear-gradient(#000 35%, rgba(255, 255, 255, 0)0%);
+    position: absolute;
+    right: 170px;
+    top: 1550px;
+    background-size: 3px 10px;
+    background-repeat: repeat-y;
+}
+
+.line31 {
+    width: 5px;
+    height: 800px;
+    background-image: linear-gradient(#ffffff 35%, rgba(255, 255, 255, 0)0%);
+    position: absolute;
+    right: 1300px;
+    top: 1060px;
+    background-size: 3px 10px;
+    background-repeat: repeat-y;
+}
+
+.line4 {
+    width: 5px;
+    height: 350px;
+    background-image: linear-gradient(#000 35%, rgba(255, 255, 255, 0)0%);
+    position: absolute;
+    right: 750px;
+    top: 2500px;
+    background-size: 3px 10px;
+    background-repeat: repeat-y;
+}
+
+.line5 {
+    width: 5px;
+    height: 350px;
+    background-image: linear-gradient(#000 35%, rgba(255, 255, 255, 0)0%);
+    position: absolute;
+    right: 1500px;
+    top: 2500px;
+    background-size: 3px 10px;
+    background-repeat: repeat-y;
+}
+
+
+
+
+
+
+.XA1 {
+    width: 500px;
+    height: 920px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: 1200px;
+    top: 995px;
+}
+
+.XA:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+
+
+
+.XAA {
+    position: absolute;
+    right: 120px;
+    top: 50px;
+}
+
+.XAB {
+    position: absolute;
+    right: 120px;
+    top: 250px;
+}
+
+.XB {
+    position: absolute;
+    right: 350px;
+    top: 1100px;
+    width: 600px;
+    height: 900px;
+    z-index: 1
+}
+
+.XC {
+    position: absolute;
+    right: 50px;
+    top: 1050px;
+    width: 600px;
+    height: 900px;
+    z-index: 1;
+}
+
+.XCA {
+    position: absolute;
+    right: 1000px;
+    top: 900px;
+    width: 600px;
+    height: 900px;
+}
+
+.XD {
+    width: 70px;
+    height: 140px;
+    position: absolute;
+    right: 1200px;
+    top: 1050px;
+
+    border-radius: 70px 0 0 70PX
+}
+
+.XD1 {
+    font-size: 100px;
+}
+
+.XD2 {
+    width: 70px;
+    height: 140px;
+    position: absolute;
+    right: 1100px;
+    top: 1150px;
+
+    border-radius: 70px 0 0 70PX
+}
+
+.XD12 {
+    font-size: 100px;
+}
+
+
+
+
+.XD3 {
+    width: 70px;
+    height: 140px;
+    position: absolute;
+    right: 1500px;
+    top: 2500px;
+
+    border-radius: 70px 0 0 70PX
+}
+
+.XD32 {
+    font-size: 100px;
+}
+
+.XD4 {
+    width: 70px;
+    height: 140px;
+    position: absolute;
+    right: 1600px;
+    top: 2600px;
+
+    border-radius: 70px 0 0 70PX
+}
+
+.XD42 {
+    font-size: 100px;
+}
+
+
+
+
+
+
+.XG {
+    position: absolute;
+    right: 500px;
+    top: 2000px;
+    margin: auto;
+    width: 800px;
+    height: 900px;
+}
+
+.XGA {
+    flex: 90%;
+    overflow: hidden;
+    transition: 5s;
+    margin: 0 20px;
+}
+
+.XK {
+    position: absolute;
+    right: 500px;
+    top: 2200px;
+    margin: auto;
+    width: 1200px;
+    height: 900px;
+}
+
+.XH {
+    position: absolute;
+    right: 200px;
+    top: 2000px;
+    width: 1000px;
+    height: 920px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: grid;
+    grid-template-rows: 0fr;
+}
+
+.XH> {
+    overflow: hidden;
+}
+
+
+.botton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    transition: 0.3s ease;
+}
+
+.botton:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255)
+}
+
+
+.dropbtnone {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 45px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 1;
+}
+
+
+.dropdownone {
+    position: absolute;
+    right: 650px;
+    top: 0px;
+    display: inline-block;
+    transition-timing-function: ease;
+}
+
+.dropdownone-content {
+    color: #ffffff;
+    font-size: 65px;
+    display: none;
+    position: absolute;
+    right: 450px;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 850px;
+    height: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition-timing-function: ease;
+}
+
+
+
+.dropdownone:hover .dropdownone-content {
+    display: block;
+    transition-timing-function: ease;
+
+}
+
+.dropdownone:hover .dropbtnone {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+.dropbtntow {
+    position: absolute;
+    right: -82px;
+    top: 30px;
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 45px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.dropdowntow {
+    position: absolute;
+    right: 500px;
+    top: 300px;
+    display: inline-block;
+    transition-timing-function: ease;
+}
+
+.dropdowntow-content {
+    color: #ffffff;
+    font-size: 65px;
+    display: none;
+    position: absolute;
+    right: 600px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 850px;
+    height: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition-timing-function: ease;
+}
+
+
+
+.dropdowntow:hover .dropdowntow-content {
+    display: block;
+    transition-timing-function: ease;
+
+}
+
+.dropdowntow:hover .dropbtntow {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+.dropbtnfore {
+    position: absolute;
+    right: -82px;
+    top: 30px;
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 45px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 1;
+}
+
+
+.dropdownfore {
+    position: absolute;
+    right: 500px;
+    top: 1200px;
+    display: inline-block;
+    transition-timing-function: ease;
+}
+
+.dropdownfore-content {
+    color: #ffffff;
+    font-size: 65px;
+    display: none;
+    position: absolute;
+    right: 600px;
+    top: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 850px;
+    height: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition-timing-function: ease;
+}
+
+
+
+.dropdownfore:hover .dropdownfore-content {
+    display: block;
+    transition-timing-function: ease;
+
+}
+
+.dropdownfore:hover .dropbtnfore {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+.dropbtnthree {
+    position: absolute;
+    right: -82px;
+    top: 0px;
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 45px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 1
+}
+
+
+.dropdownthree {
+    position: absolute;
+    right: 900px;
+    top: 1700px;
+    display: inline-block;
+    transition-timing-function: ease;
+
+}
+
+.dropdownthree-content {
+    color: #ffffff;
+    font-size: 65px;
+    display: none;
+    position: absolute;
+    right: 600px;
+    top: -516px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 850px;
+    height: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition-timing-function: ease;
+}
+
+
+
+.dropdownthree:hover .dropdownthree-content {
+    display: block;
+    transition-timing-function: ease;
+
+}
+
+.dropdownthree:hover .dropbtnthree {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+div.A {
+    position: absolute;
+    right: 1200px;
+    top: 1000px;
+    width: 600px;
+    height: 600px;
+    z-index: auto;
+}
+
+div.A div.title {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    width: 200px;
+    height: 690px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+div.A div.title a {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 30px 0px 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 200px;
+    outline-style: solid;
+}
+
+div.A div.conetent {
+    width: 1600px;
+    height: 1200px;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+div.A div.conetent div#list1 {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 500px;
+}
+
+div.A div.conetent div#list2 {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 40%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 500px;
+}
+
+div.A div.conetent div#list3 {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+    line-height: 500px;
+}
+
+
+.boutme {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    right: 100px;
+    top: 2235px;
+    text-align: center
+}
+
+.boutme1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.boutme12 {
+    font-size: 30px;
+    color: #ffffff;
+}
